@@ -1,0 +1,101 @@
+/* this section is CSS for the second page */
+.body2 {
+    background: url('http://image.facegfx.com/2013/pure-black-background-pictures-931448725466.jpg') no-repeat top center fixed;
+    background-size: cover;
+    padding-top: -1px;
+}
+
+.background2{
+    opacity:    0.4;
+    background: white;
+    width:      100%;
+    height:     100%;
+    position:   fixed;
+    top:        0;
+    left:       0;
+}
+
+
+#homepagelogo{
+  width: 10%;
+}
+
+#search-bar{
+  position: relative;
+  width:80%;
+}
+
+
+.fil {
+  margin-top: 5px;
+  float: left;
+  width: 33%;
+  display:inline;
+}
+
+.disabled {
+  color: white;
+  opacity: 0.8;
+  list-style-type: none;
+}
+
+
+.display {
+    color: lightgray;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    display: fixed;
+}
+
+.button1 {
+    background-color: aquamarine;
+}
+
+.home-button {
+    background-color: salmon;
+    height: 50px;
+    width: 50px;
+}
+
+.main-heading {
+    text-align: center;
+    color: blue;
+}
+
+.first-row {
+    height: 100px;
+    background-color: beige;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+
+.second-row {
+    height: 100px;
+    background-color: aquamarine;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+
+.third-row {
+
+    height: 100px;
+    background-color: antiquewhite;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+
+.foodItem {
+	border-radius: 12px;
+	height: 240px;
+	padding: 24px;
+}
+
+.thumb {
+	width: 200px;
+	height: 130px;
+}
+/* the section of CSS for second page end here */

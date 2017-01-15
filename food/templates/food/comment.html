@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <title>upload of recipe </title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- CSS file made by the group -->
+        <link href="style-3.css" rel="stylesheet">
+    </head>
+
+    <body class="body3">
+
+
+
+
+
+        <div class="container">
+            <div class="col-lg-10 col-lg-offset-1">
+                <nav class="navbar navbar-inverse ">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand"  href="FirstPage.html">Home</a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                           <div class="hidden-sm col-md-5">
+                                <form class="navbar-form navbar-left" style="margin-left: 5%;" method="GET" action="">
+                                <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Recipe..." name="q">
+                                      <div class="input-group-btn">
+                                            <button type="submit" class="btn btn-primary">Search</button>
+                                      </div>
+                                </div>
+                                </form>
+                            </div>
+                      </div>
+                 </div>
+                  </nav>
+
+
+<form method="POST" class="post-form">{% csrf_token %}
+                  <div class="col-md-8 comment-recipe">
+                    <div class="form-group">
+
+                      <label for="id_title">Title</label>
+                      {{form.user}}
+                    </div>
+                   <div class="form-group">
+                     <label for="exampleTextarea">write your comment:</label>
+                     {{form.text}}
+                   </div>
+                   <button type="submit" class="btn btn-primary" >comment</button>
+                 </div>
+</form>
+
+    </body>
+</html>

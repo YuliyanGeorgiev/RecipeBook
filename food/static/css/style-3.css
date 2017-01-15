@@ -1,0 +1,68 @@
+/* this is the CSS for the third page */
+.body3 {
+    background: url('http://image.facegfx.com/2013/pure-black-background-pictures-931448725466.jpg') no-repeat top center fixed;
+    background-size: cover;
+    padding-top: -1px;
+}
+
+.home-button-page3 {
+    text-align: center;
+    height: 50px;
+}
+
+.button1 {
+    background-color: aquamarine;
+}
+
+
+.comment-button {
+  margin-top: 10%;
+  width: 100%;
+  text-align: center;
+}
+
+.ingredient-box {
+    background-color: beige;
+}
+
+.budget-box {
+    background-color: orange;
+}
+
+.recipe-description-box {
+    background-color: lightblue;
+}
+
+.content-recipe {
+    text-align: center;
+    margin-top: 5%;
+    height: 100px;
+    width: 49%;
+    background-color: antiquewhite;
+
+}
+
+.recipe-info {
+    margin-top: 5%;
+}
+
+.comment-recipe {
+    width: 100%;
+    background-color: lightgray;
+    opacity: 0.6;
+    border-radius:25px;
+    margin-top: 10%;
+    text-align: center;
+    display: inline;
+
+}
+
+.recipe-image {
+	height: 150px
+}	
+
+.titleHeader {
+	color: white;
+}
+
+/* this is the end of CSS for the third page */
